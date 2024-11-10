@@ -13,7 +13,7 @@
     </parent>
 
     <groupId>com.yourname</groupId>
-    <artifactId>CRUD_TEMPLATE</artifactId>
+    <artifactId>glot_spot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>CRUD Template</name>
     <description>A template for CRUD applications using Spring Boot</description>
@@ -52,6 +52,18 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-mail</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+
+
 
         <!-- Add any other dependencies you need here -->
     </dependencies>
