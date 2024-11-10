@@ -13,7 +13,7 @@
     </parent>
 
     <groupId>com.yourname</groupId>
-    <artifactId>CRUD_TEMPLATE</artifactId>
+    <artifactId>glot_spot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>CRUD Template</name>
     <description>A template for CRUD applications using Spring Boot</description>
