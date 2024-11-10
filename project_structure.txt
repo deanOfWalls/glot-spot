@@ -1,5 +1,3 @@
-This is the default project structure and does not reflect any changes made after downloading/cloning.
-
 .
 ├── Dockerfile
 ├── mvnw
@@ -7,64 +5,36 @@ This is the default project structure and does not reflect any changes made afte
 ├── pom.xml
 ├── project_structure.txt
 ├── README.md
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── com
-│   │   │       └── yourname
-│   │   │           └── CRUD_TEMPLATE
-│   │   │               ├── config
-│   │   │               │   └── SomeConfig.java
-│   │   │               ├── controller
-│   │   │               │   └── SomeController.java
-│   │   │               ├── MainApplication.java
-│   │   │               ├── model
-│   │   │               │   └── SomeModel.java
-│   │   │               ├── repository
-│   │   │               │   └── SomeRepository.java
-│   │   │               └── service
-│   │   │                   └── SomeService.java
-│   │   └── resources
-│   │       ├── application.properties
-│   │       └── static
-│   │           ├── index.html
-│   │           ├── script.js
-│   │           └── style.css
-│   └── test
-│       └── java
-│           └── com
-│               └── yourname
-│                   └── CRUD_TEMPLATE
-│                       └── SomeTest.java
-└── target
-    ├── classes
-    │   ├── application.properties
-    │   ├── com
-    │   │   └── yourname
-    │   │       └── CRUD_TEMPLATE
-    │   │           ├── config
-    │   │           │   └── SomeConfig.class
-    │   │           ├── controller
-    │   │           │   └── SomeController.class
-    │   │           ├── MainApplication.class
-    │   │           ├── model
-    │   │           │   └── SomeModel.class
-    │   │           ├── repository
-    │   │           │   └── SomeRepository.class
-    │   │           └── service
-    │   │               └── SomeService.class
-    │   └── static
-    │       ├── index.html
-    │       ├── script.js
-    │       └── style.css
-    ├── generated-sources
-    │   └── annotations
-    ├── generated-test-sources
-    │   └── test-annotations
-    └── test-classes
-        └── com
-            └── yourname
-                └── CRUD_TEMPLATE
-                    └── SomeTest.class
+└── src
+    ├── main
+    │   ├── java
+    │   │   └── com
+    │   │       ├── dean
+    │   │       │   └── glot_spot
+    │   │       │       ├── config
+    │   │       │       │   └── SecurityConfig.java
+    │   │       │       ├── controller
+    │   │       │       │   └── UserController.java
+    │   │       │       ├── MainApplication.java
+    │   │       │       ├── model
+    │   │       │       │   └── User.java
+    │   │       │       ├── repository
+    │   │       │       │   └── UserRepository.java
+    │   │       │       └── service
+    │   │       │           └── UserService.java
+    │   │       └── yourname
+    │   └── resources
+    │       ├── application.properties
+    │       └── static
+    │           ├── index.html
+    │           ├── script.js
+    │           └── style.css
+    └── test
+        └── java
+            └── com
+                ├── dean
+                │   └── glot_spot
+                │       └── SomeTest.java
+                └── yourname
 
-38 directories, 28 files
+21 directories, 17 files
